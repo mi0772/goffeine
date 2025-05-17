@@ -1,0 +1,36 @@
+# Binarie ed eseguibili
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Cache ed editor
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Artifacts Go
+/bin/
+/pkg/
+/vendor/  # se usi vendoring, rimuovilo se vuoi versionarlo
+coverage.out
+
+# IDE JetBrains (GoLand)
+.idea/
+*.iml
+
+# Moduli Go
+go.sum
+
+# File di sistema macOS
+.DS_Store
+
+# Backup e temp locali
+*~
+*.bak
+*.tmp
+*.old
